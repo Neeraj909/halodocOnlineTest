@@ -6,14 +6,4 @@
       <class name="halodock.test.ApiTestReponse"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)" parallel="none">
-    <classes>
-      <class name="halodock.test.ApiTestReponse">
-        <methods>
-          <include name="setUp"/>
-          <include name="getWeatherLocationId"/>
-        </methods>
-      </class> <!-- halodock.test.ApiTestReponse -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
